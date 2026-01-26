@@ -1,6 +1,6 @@
 from data_provider.data_factory import data_provider
 from exp.exp_basic import Exp_Basic
-from models import Informer, Autoformer, Transformer, DLinear, Linear, NLinear, PatchTST, AverageTime, VanillaRNN, SegRNN, LightAverageTime_weather, LightAverageTime_electricity, LightAverageTime_etth1,  LightAverageTime_etth2,  LightAverageTime_ettm1,  LightAverageTime_ettm2,  LightAverageTime_traffic
+from models import Informer, Autoformer, Transformer, DLinear, Linear, NLinear, PatchTST, AverageTime, LightAverageTime_weather, LightAverageTime_electricity, LightAverageTime_etth1,  LightAverageTime_etth2,  LightAverageTime_ettm1,  LightAverageTime_ettm2,  LightAverageTime_traffic
 from utils.tools import EarlyStopping, adjust_learning_rate, visual, test_params_flop
 from utils.metrics import metric
 
