@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 from layers.RevIN import RevIN
 from einops import rearrange, repeat, einsum
-from models.model import *
 import torch.nn.functional as F
 
 class ResidualBlock(nn.Module):
