@@ -131,7 +131,7 @@ do
       --patience 5 \
       --rnn_type gru \
       --dec_way pmf \
-      --channel_id 0 \
+      --channel_id 1 \
       --loss mse \
       --revin 1 \
       --c_layers 2 \
